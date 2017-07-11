@@ -6,7 +6,7 @@ import Header from './Header';
 import NavBar from './NavBar';
 import About from './About';
 import Skills from './Skills';
-import Projects from './Projects';
+import Project_Container from './Project_Container';
 import Footer from './Footer';
 
 
@@ -20,7 +20,7 @@ class App extends Component {
           <NavBar />
             <Route exact path = "/" component={About} />
             <Route path = "/skills" component= {Skills} />
-            <Route path = "/projects" component= {Projects} />
+            <Route path = "/projects" component= {Project_Container} />
             <Footer />
         </div>
       </BrowserRouter>
