@@ -5,7 +5,6 @@ import Project_List_Item from './Project_List_Item'
 
 const Project_List = (props) => {
 
-  console.log(props.projects);
   const projectItems = props.projects.map((project) => {
    return (
          <ul>

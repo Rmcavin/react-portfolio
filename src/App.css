@@ -96,6 +96,7 @@ button {
 
 button:focus{
   border: 1px solid rgb(244, 95, 66);
+  box-shadow: 3px 2px 2px rgb(244, 95, 66);
   animation: 0.2s pulse ease;
 }
 
@@ -240,10 +241,23 @@ li {
 }
 
 .projectIMG {
-  display: block;
-  border-radius: 10px;
-  margin-top: 10px;
   width: 150px;
+  border-radius: 10px;
+}
+
+.imageAnchor {
+  display: block;
+  width: 150px;
+  border-radius: 10px;
+  margin: 5px;
+  border: 3px solid rgb(132,232,213);
+  box-shadow: 3px 2px 2px rgb(105,185,170);
+}
+
+.imageAnchor:focus{
+  border: 1px solid rgb(244, 95, 66);
+  box-shadow: 3px 2px 2px rgb(244, 95, 66);
+  animation: 0.2s pulse ease;
 }
 
 li span {
@@ -277,6 +291,8 @@ li span {
   margin: 10px;
   border-radius: 10px;
   max-width: auto;
+  border: 3px solid rgb(132,232,213);
+  box-shadow: 3px 2px 2px rgb(105,185,170);
 }
 
 .projectDisplayName {
