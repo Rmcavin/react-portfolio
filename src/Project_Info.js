@@ -1,7 +1,7 @@
 module.exports = [
   {
     name: 'Testing 1',
-    image: 'http://d13n9ry8xcpemi.cloudfront.net/photo/odai/400/ea87928c623b6719377bd8cfa88626c2_400.jpg',
+    image: 'C:/Users/Rachel/Documents/GitHub/react-portfolio/src/images/pomodoroIMG.JPG',
     desc: 'Testing testing testing jfkdlsjflskjfsdkjsl',
     demo: 'hello',
     docs: 'hi',

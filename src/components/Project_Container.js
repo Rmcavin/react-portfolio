@@ -13,7 +13,7 @@ class Project_Container extends React.Component {
 
       this.state = {
         projects: Project_Info,
-        selectedProject: Project_Info.Project1
+        selectedProject: Project_Info[0]
       }
     }
   render () {
@@ -26,7 +26,19 @@ class Project_Container extends React.Component {
               <Project_List
                   onProjectSelect = {selectedProject => this.setState({selectedProject})}
                   projects = {this.state.projects} />
-                <div className = "flexy-projects">
+                <div className = "selectedProjectDisplay">
+                  <div className = "leftContainer">
+                      <img src = {this.state.selectedProject.image} className = "projectDisplayImage" />
+                  </div>
+                  <div className = "rightContainer">
+                      <h2 className = "projectDisplayName">{this.state.selectedProject.name}</h2>
+                        <div>
+                          <h4>{this.state.selectedProject.desc}</h4>
+                          <button><a href = {this.state.selectedProject.demo}>Demo</a></button>
+                          <button><a href = {this.state.selectedProject.docs}>Docs</a></button>
+                          <button><a href = {this.state.selectedProject.code}>Code</a></button>
+                        </div>
+                  </div>
               </div>
           </div>
           </div>

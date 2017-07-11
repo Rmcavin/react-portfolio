@@ -8,18 +8,20 @@ const Project_List = (props) => {
   console.log(props.projects);
   const projectItems = props.projects.map((project) => {
    return (
-     <ul>
-     <Project_List_Item
-       onProjectSelect={props.onProjectSelect}
-       key = {project.id}
-       project = {project} />
-      </ul>
+         <ul>
+         <Project_List_Item
+           onProjectSelect={props.onProjectSelect}
+           key = {project.id}
+           project = {project} />
+          </ul>
    )
 });
   return (
-    <ul>
-      {projectItems}
-    </ul>
+     <div className = "projectGallery">
+        <ul>
+          {projectItems}
+        </ul>
+    </div>
   )
 };
 

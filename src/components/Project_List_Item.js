@@ -2,7 +2,10 @@ import React from 'react';
 
 const Project_List_Item = ({project, onProjectSelect}) => {
   return (
-  <img src= {project.image} />
+  <li onClick = {() => onProjectSelect(project)}>
+    <img src= {project.image} className = "projectIMG" />
+    <span className = "projectName">{project.name}</span>
+  </li>
 )
 }
 
