@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../resources/font-awesome-4.7.0/css/font-awesome.css';
 
 import '../App.css';
 import './App.js'

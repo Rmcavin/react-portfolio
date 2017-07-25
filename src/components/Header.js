@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import img from '../images/MeResize.jpg';
+import img from '../resources/images/MeResize.jpg';
 import '../App.css';
 
 class Header extends Component {
@@ -10,7 +10,7 @@ class Header extends Component {
           <h1>Hello</h1>
         <div className = "border2">
           <div className = "border">
-            <img src={img} className="Me-Photo" alt="Picture of Me" />
+            <img src={img} className="Me-Photo" alt="Me" />
           </div>
         </div>
           <h2>I'm Rachel Cavin</h2>

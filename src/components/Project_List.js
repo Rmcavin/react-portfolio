@@ -1,35 +1,32 @@
 import React, { Component } from 'react';
+import Slider from 'react-slick';
 import '../App.css';
 
 import Project_List_Item from './Project_List_Item'
 
 const Project_List = (props) => {
+  const testItems = props.projects.map((project) => {
+    <div key = {project.id}>
+  1
+     </div>
+  })
 
   const projectItems = props.projects.map((project) => {
    return (
-         <ul>
+       <div key = {project.id}>
          <Project_List_Item
            onProjectSelect={props.onProjectSelect}
            key = {project.id}
            project = {project} />
-          </ul>
+        </div>
    )
 });
+
   return (
-     <div className = "projectGallery">
-        <ul>
-          {projectItems}
-        </ul>
+    <div className = "projectGallery">
+      {projectItems}
     </div>
   )
 };
 
 export default Project_List;
-
-
-
-
-//  {Object.keys(this.props.projects)
-//    .map(key => <Project_List_Item
-//                    key = {this.props.project.id}
-//                    details = {props.projects[key]} />)}

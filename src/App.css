@@ -221,8 +221,9 @@ h4 {
   width: auto;
   border-radius: 10px;
   margin: 10px;
-  overflow-x: scroll;
-  overflow-y: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 
 }
 
@@ -260,8 +261,9 @@ li {
   animation: 0.2s pulse ease;
 }
 
-li span {
+span {
   display: block;
+  text-align: center;
 }
 
 .selectedProjectDisplay {
@@ -271,26 +273,30 @@ li span {
 }
 .leftContainer {
   align-content: right;
-  flex: 1 1 auto;
+  flex: 1 1 60%;
   display: flex;
   justify-content: flex-end;
+
 }
 
 .rightContainer {
-  flex: 1 1 auto;
+  flex: 1 1 40%;
+  text-align: center;
 }
 
 .rightContainer h4 {
   margin: 0 0 4 0;
   text-indent: 5px;
-  text-align: left;
   text-shadow: none;
   font-weight: normal;
 }
 .projectDisplayImage{
-  margin: 10px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
   border-radius: 10px;
-  max-width: auto;
+  width: 90%;
+  height: 80%;
   border: 3px solid rgb(132,232,213);
   box-shadow: 3px 2px 2px rgb(105,185,170);
 }
@@ -299,4 +305,9 @@ li span {
   margin: 10px;
   font-size: 28px;
   font-weight: bolder;
+}
+
+.projectItem {
+  display: inline;
+  width: 80%;
 }

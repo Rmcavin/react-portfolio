@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import familyPhoto from '../images/family.jpg';
+import familyPhoto from '../resources/images/family.jpg';
 import '../App.css';
 
 class About extends Component {
@@ -36,7 +36,7 @@ class About extends Component {
 
             <p>I live in Round Rock, Texas with my fiance,
             <a target= "_blank" href= "https://twitter.com/HarridiseLost"> Ben</a>,
-            our dog, Zelda, our cat, Grayson, and our silkie chickens.
+            our dog, Zelda, and our silkie chickens.
             When I'm not coding, I enjoy <a target = "_blank"
             href = "http://steamcommunity.com/id/amallie/">video games</a>,
             picking veggies in my garden, cooking, and swimming.</p>

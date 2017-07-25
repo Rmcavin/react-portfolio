@@ -2,10 +2,10 @@ import React from 'react';
 
 const Project_List_Item = ({project, onProjectSelect}) => {
   return (
-  <li onClick = {() => onProjectSelect(project)}>
-    <a className = 'imageAnchor'><img src= {project.image} className = "projectIMG" /></a>
+  <div className = "projectItem" onClick = {() => onProjectSelect(project)}>
+    <a className = 'imageAnchor'><img src= {process.env.PUBLIC_URL + project.image} className = "projectIMG" alt = {project.name} /></a>
     <span className = "projectName">{project.name}</span>
-  </li>
+  </div>
 )
 }
 
