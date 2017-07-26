@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import Slider from 'react-slick';
+import React from 'react';
 import '../App.css';
 
 import Project_List_Item from './Project_List_Item'
