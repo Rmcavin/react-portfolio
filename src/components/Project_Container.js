@@ -29,15 +29,14 @@ class Project_Container extends React.Component {
                   projects = {this.state.projects} />
                 <div className = "selectedProjectDisplay">
                   <div className = "leftContainer">
-                      <img src = {this.state.selectedProject.image} className = "projectDisplayImage" />
+                      <img src = {this.state.selectedProject.image} className = "projectDisplayImage" alt = {this.state.selectedProject.name}/>
                   </div>
                   <div className = "rightContainer">
                       <h2 className = "projectDisplayName">{this.state.selectedProject.name}</h2>
                         <div>
                           <h4>{this.state.selectedProject.desc}</h4>
-                          <button><a href = {this.state.selectedProject.demo}>Demo</a></button>
-                          <button><a href = {this.state.selectedProject.docs}>Docs</a></button>
-                          <button><a href = {this.state.selectedProject.code}>Code</a></button>
+                          <button><a href = {this.state.selectedProject.demo} target="_blank" rel="noopener noreferrer">Demo</a></button>
+                          <button><a href = {this.state.selectedProject.repo} target="_blank" rel="noopener noreferrer">Repo</a></button>
                         </div>
                   </div>
               </div>

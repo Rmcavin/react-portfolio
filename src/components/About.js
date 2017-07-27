@@ -23,8 +23,8 @@ class About extends Component {
             science and social studies teacher. I quickly realized that coding
             was awesome and approachable, and
             began considering it as a career. Since beginning a few months ago, I have learned
-            HTML5, CSS3, Javascript, and have additional practice using JQuery, React, and other libraries
-            and frameworks. Next I intend to learn Node.js, Express, and MongoDB,
+            HTML5, CSS3, Javascript, and have additional practice using JQuery, React, and several other libraries.
+            Next I intend to learn Node.js, Express, and MongoDB,
             then build apps using the MERN stack. </p>
 
             <p>Before learning to code, I earned an M.S. in Geography,

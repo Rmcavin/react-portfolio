@@ -2,6 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://rmcavin.github.io/react-portfolio",
   "dependencies": {
     "animate.css": "^3.5.2",
     "react": "^15.5.4",

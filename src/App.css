@@ -70,10 +70,16 @@ hr {
   margin: 1px;
 }
 
-.navBar {
+.navDiv {
+  margin: auto;
   background-color: rgb(181,241,229);
   height: auto;
   width: 100%;
+}
+
+.navBar {
+  width: 70%;
+  margin: auto;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -177,11 +183,13 @@ a {
   border: 1px solid rgb(244, 95, 66);
   margin: 70px 40px 70px 40px;
 }
+
 .flexy-icons {
   display: flex;
-  width: 60%;
+  width: 80%;
   margin: auto;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
   margin-top: 0px;
 }
@@ -271,16 +279,16 @@ span {
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .leftContainer {
   align-content: right;
-  flex: 1 1 60%;
+  flex: 2 1 60%;
   display: flex;
   justify-content: flex-end;
-
 }
 
 .rightContainer {
-  flex: 1 1 40%;
+  flex: 1 2 40%;
   text-align: center;
 }
 
@@ -310,4 +318,13 @@ span {
 .projectItem {
   display: inline;
   width: 80%;
+}
+
+@media (max-width: 1200px) {
+  .sectionHeader {
+    width: 95%;
+  }
+  .sectionParagraph {
+    width: 95%;
+  }
 }

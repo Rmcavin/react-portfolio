@@ -9,27 +9,24 @@ module.exports = [
     name: 'Pomodoro Timer',
     image: pomo,
     desc: 'A timer for the Pomodoro Productivity Method built with JQuery.',
-    demo: 'hello',
-    docs: 'hi',
-    code: 'hey',
+    demo: 'https://rmcavin.github.io/FCC_Pomodoro/',
+    repo: 'https://github.com/Rmcavin/FCC_Pomodoro/tree/master',
     id: '104'
   },
   {
     name: 'Calculator',
     image: calc,
     desc: 'A calculator built with JQuery and CSS Grid.',
-    demo: 'hey there',
-    docs: 'hi there',
-    code: 'hello there',
+    demo: 'https://rmcavin.github.io/FCC_Calculator',
+    repo: 'https://github.com/Rmcavin/FCC_Calculator/tree/master',
     id: '103'
   },
   {
     name: 'Wikipedia Viewer',
     image: wiki,
-    desc: 'A wiki search app built with the Wikimedia API and React.js',
+    desc: 'A wiki search app built with the Wikimedia API and React.js.',
     demo: 'https://rmcavin.github.io/FCC_wikiViewer/',
-    docs: 'hi there',
-    code: 'hello there',
+    repo: 'https://github.com/Rmcavin/FCC_wikiViewer/tree/master',
     id: '102'
   },
   {
@@ -37,8 +34,7 @@ module.exports = [
     image: twitch,
     desc: 'A Twitch.tv streamer status viewer built with the Twitch API and JQuery.',
     demo: 'https://rmcavin.github.io/FCC_Twitch/',
-    docs: 'hi there',
-    code: 'hello there',
+    repo: 'https://github.com/Rmcavin/FCC_Twitch/tree/master',
     id: '101'
   },
 

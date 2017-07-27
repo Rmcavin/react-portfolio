@@ -25,9 +25,7 @@ class Skills extends Component {
               <i className="devicon-mongodb-plain-wordmark" id="skills"></i>
               <i className="devicon-nodejs-plain-wordmark" id="skills"></i>
               <i className="devicon-express-original-wordmark" id="skills"></i>
-              <i className="devicon-heroku-original-wordmark" id="skills"></i>
               <i className="devicon-sass-original" id="skills"></i>
-              <i className="devicon-wordpress-plain-wordmark" id="skills"></i>
             </div>
           </div>
 
