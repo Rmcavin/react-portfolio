@@ -18,10 +18,10 @@ class Skills extends Component {
               <i className="devicon-bootstrap-plain-wordmark" id="skills"></i>
               <i className="devicon-jquery-plain-wordmark" id="skills"></i>
               <i className="devicon-react-original-wordmark" id="skills"></i>
+              <i className="devicon-git-plain-wordmark" id="skills"></i>
             </div>
             <h4>Coming Soon</h4>
             <div className = "flexy-icons">
-              <i className="devicon-git-plain-wordmark" id="skills"></i>
               <i className="devicon-mongodb-plain-wordmark" id="skills"></i>
               <i className="devicon-nodejs-plain-wordmark" id="skills"></i>
               <i className="devicon-express-original-wordmark" id="skills"></i>

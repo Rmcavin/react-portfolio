@@ -7,13 +7,12 @@ class Header extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <h1>Hello</h1>
         <div className = "border2">
           <div className = "border">
             <img src={img} className="Me-Photo" alt="Me" />
           </div>
         </div>
-          <h2>I'm Rachel Cavin</h2>
+        <h1>Rachel Cavin</h1>
         </div>
         <div className = "divider">
         <hr />

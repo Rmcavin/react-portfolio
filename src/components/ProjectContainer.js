@@ -3,18 +3,18 @@ import '../resources/font-awesome-4.7.0/css/font-awesome.css';
 
 import '../App.css';
 import './App.js'
-import Project_List from './Project_List';
-import Project_Info from '../Project_Info';
+import ProjectList from './ProjectList';
+import ProjectInfo from '../ProjectInfo';
 
 
-class Project_Container extends React.Component {
+class ProjectContainer extends React.Component {
 
     constructor(props) {
       super(props);
 
       this.state = {
-        projects: Project_Info,
-        selectedProject: Project_Info[0]
+        projects: ProjectInfo,
+        selectedProject: ProjectInfo[0]
       }
     }
   render () {
@@ -24,7 +24,7 @@ class Project_Container extends React.Component {
           <h2>Projects</h2>
           </div>
           <div className = "sectionParagraph">
-              <Project_List
+              <ProjectList
                   onProjectSelect = {selectedProject => this.setState({selectedProject})}
                   projects = {this.state.projects} />
                 <div className = "selectedProjectDisplay">
@@ -45,4 +45,4 @@ class Project_Container extends React.Component {
 )}
 }
 
-export default Project_Container;
+export default ProjectContainer;

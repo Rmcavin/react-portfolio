@@ -1,20 +1,19 @@
-@import url('http://fonts.googleapis.com/css?family=Lobster+Two');
+@import url('https://fonts.googleapis.com/css?family=Amaranth');
 @import '../node_modules/animate.css';
 
+
+/* ******** BODY ******** */
 body {
 background-color: rgb(232, 242, 240);
 }
 
+/* ******** HEADER ******** */
 .Me-Photo {
   border-radius: 100%;
   width: 200px;
   height: 200px;
   margin: auto;
   margin-top: 5px;
-}
-
-.App {
-  height: 100%;
 }
 
 .border {
@@ -37,27 +36,16 @@ background-color: rgb(232, 242, 240);
   height: auto;
   padding: 5px;
   color: white;
-  font-family: "Lobster Two", sans-serif;
+  font-family: "Amaranth", sans-serif;
   font-size: 30px;
   text-shadow: 3px 2px 2px rgb(105,185,170);
   text-align: center;
   animation: 2s fadeIn ease;
 }
 
-.App-header h1,h2 {
-  margin: 0px;
-}
-
 .App-header h1 {
     animation: 2s fadeIn ease;
-}
-
-.App-header h2 {
-    animation: 2s fadeIn ease;
-}
-
-.App-intro {
-  font-size: large;
+    margin: 0px;
 }
 
 .divider {
@@ -70,7 +58,9 @@ hr {
   margin: 1px;
 }
 
-.navDiv {
+/* ******** NAVIGATION ******** */
+
+.nav {
   margin: auto;
   background-color: rgb(181,241,229);
   height: auto;
@@ -83,7 +73,16 @@ hr {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  align-content: center;
   animation: 2s fadeIn ease;
+}
+
+.linkButton {
+  flex: 1 1 20%;
+}
+
+.socialButton {
+  flex: 1 1 5%;
 }
 
 button {
@@ -92,19 +91,36 @@ button {
   font-size: 16px;
   background-color: rgb(181,241,229);
   border-radius: 5px;
-  border: 2px solid rgb(105,185,170);
+  border: 1px solid rgb(105,185,170);
   height: 45px;
-  padding: 0px 20px 0px 20px;
   margin: 5px 10px 5px 10px;
-  box-shadow: 3px 2px 2px rgb(105,185,170);
+  box-shadow: 2px 2px 2px rgb(105,185,170);
   outline: none;
 }
 
 button:focus{
-  border: 1px solid rgb(244, 95, 66);
-  box-shadow: 3px 2px 2px rgb(244, 95, 66);
+  color: rgb(244, 95, 66);
   animation: 0.2s pulse ease;
 }
+
+#navButton {
+  width: 90%;
+}
+
+.toggleNav {
+  width: 90%;
+  margin: auto;
+}
+
+.menuButton {
+  width: 90%;
+}
+
+.toggleNav {
+  display: none;
+}
+
+/* ******** PARAGRAPHS ******** */
 
 .sectionHeader {
   width: 70%;
@@ -119,7 +135,7 @@ button:focus{
 }
 
 .sectionHeader h2 {
-    font-family: "Lobster Two", sans-serif;
+    font-family: "Amaranth", sans-serif;
     color: white;
     text-shadow: 3px 2px 2px rgb(105,185,170);
     padding: 15px;
@@ -144,7 +160,7 @@ button:focus{
 .sectionParagraph p {
   width: 60%;
   margin: auto;
-  padding: 30px 50px 0 50px;
+  padding: 30px 20px 0 20px;
   font-size: 18px;
   text-indent: 30px;
 }
@@ -152,6 +168,17 @@ button:focus{
 a {
   text-decoration: none;
   color: rgb(68, 146, 131);
+}
+
+/* ******** ABOUT ******** */
+
+.aboutSection {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .familyPhoto {
@@ -163,7 +190,18 @@ a {
 }
 
 .photoDiv {
-  display: inline;
+  flex: 1 1 25%;
+  display:flex;
+  justify-content: center;
+}
+
+.aboutParagraph {
+  flex: 2 2 50%;
+}
+
+.aboutParagraph > p {
+  margin: 0 10px 0 10px;
+  width: 100%
 }
 
 .border-family {
@@ -172,7 +210,6 @@ a {
   width: 210px;
   border-radius: 100%;
   border: 5px solid white;
-
 }
 
 .border2-family {
@@ -183,6 +220,8 @@ a {
   border: 1px solid rgb(244, 95, 66);
   margin: 70px 40px 70px 40px;
 }
+
+/* ******** SKILLS ******** */
 
 .flexy-icons {
   display: flex;
@@ -213,17 +252,7 @@ h4 {
   text-shadow: 3px 2px 2px rgb(105,185,170);
 }
 
-.Footer {
-  background-color: rgb(132,232,213);
-  margin-bottom: 0;
-  position: absolute;
-  width: 100%;
-  text-align: center;
-  color: white;
-  font-weight: bolder;
-  text-shadow: 3px 2px 2px rgb(105,185,170);
-  animation: 2s fadeIn ease;
-}
+/* ******** PROJECTS ******** */
 
 .projectGallery {
   width: auto;
@@ -320,11 +349,70 @@ span {
   width: 80%;
 }
 
+/* ******** FOOTER ******** */
+
+.Footer {
+  background-color: rgb(132,232,213);
+  margin-bottom: 0;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  text-shadow: 3px 2px 2px rgb(105,185,170);
+  animation: 2s fadeIn ease;
+}
+
 @media (max-width: 1200px) {
   .sectionHeader {
     width: 95%;
   }
+
   .sectionParagraph {
     width: 95%;
   }
+
+  .linkButton {
+    flex: 1 1 33%;
+  }
+
+  .socialButton {
+    flex: 1 1 20%;
+  }
+}
+
+@media (max-width: 680px) {
+  .rightContainer {
+    flex: 1 1 90%;
+  }
+}
+
+@media (max-width: 475px) {
+
+.nav .linkButton {
+  flex-basis: 100%;
+}
+
+.nav .socialButton {
+  flex-basis: 5%;
+  padding: 0px;
+}
+
+.toggleNav {
+  display: block;
+}
+
+.nav ul {
+  display: none;
+}
+
+.nav ul.true {
+  display: flex;
+  justify-content: center;
+}
+
+.photoDiv {
+  display: block;
+  margin: auto;
+}
 }

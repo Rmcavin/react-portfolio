@@ -10,7 +10,6 @@ class Footer extends Component {
             <hr />
           </div>
           <p>Made with <i className="fa fa-coffee" aria-hidden="true"></i>, <i className="fa fa-heart" aria-hidden="true"></i>, and <i className="fa fa-code" aria-hidden="true"></i> by Rachel Cavin.</p>
-          <p>Icons by <a target = "_blank" rel="noopener noreferrer" href = "http://fontawesome.io/">Font Awesome</a> and <a target = "_blank" rel="noopener noreferrer" href = "http://konpa.github.io/devicon/">Devicon</a></p>
       </div>
       </div>
     );

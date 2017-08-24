@@ -1,14 +1,14 @@
 import React from 'react';
 import '../App.css';
 
-import Project_List_Item from './Project_List_Item'
+import ProjectListItem from './ProjectListItem'
 
 const Project_List = (props) => {
 
   const projectItems = props.projects.map((project) => {
    return (
        <div key = {project.id}>
-         <Project_List_Item
+         <ProjectListItem
            onProjectSelect={props.onProjectSelect}
            key = {project.id}
            project = {project} />
