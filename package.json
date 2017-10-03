@@ -7,11 +7,11 @@
     "animate.css": "^3.5.2",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
-    "react-router-dom": "^4.1.1"
+    "react-router-dom": "^4.2.2"
   },
   "devDependencies": {
-    "react-scripts": "1.0.7",
-    "react-router": "4.0.0-alpha.4"
+    "react-router": "^4.2.0",
+    "react-scripts": "1.0.7"
   },
   "scripts": {
     "start": "react-scripts start",
