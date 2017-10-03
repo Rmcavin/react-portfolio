@@ -12,36 +12,26 @@ class About extends Component {
 
           <div className = "sectionParagraph">
             <div className = "aboutSection">
-              <div className = "photoDiv">
-                <div className = "border2-family">
-                  <div className = "border-family">
-                    <img src = {familyPhoto} className = "familyPhoto" alt = "Me and my family"/>
-                  </div>
-                </div>
-              </div>
+
               <div className = "aboutParagraph">
-                <p>I'm a full stack web developer currently in the Galvanize Web Dev Bootcamp in Austin, Texas. Following my graduation
+                <p>I'm a full stack web developer currently in the Galvanize Web Development Bootcamp in Austin, Texas. Following my graduation
                 in January 2018, I will be seeking full time employment as a web developer in the Austin area.</p>
 
-                <p>I began learning HTML and CSS when I was about 10 years old to make sweet Neopets page
-                customizations. In highschool, I managed websites for online gaming communities I was part of.
-                I've loved web development for a long time, but only recently, while working as a high school
-                science teacher, did I begin to develop my skills in order to build web-based applications
-                profesionally. As of now I can build front ends using a variety of </p>
+                <p>I began learning HTML and CSS when I was about 10 years old to customize my Neopets.com pages.
+                In highschool, I managed websites for online gaming communities.
+                I've loved web development for a long time, but I only recently began to consider a career change.
+                I have worked hard for over a year to develop my skills in order to build web-based applications
+                profesionally. I am a determined a driven developer who is skilled at teaching myself new techniques that
+                I can readily apply to solve problems.</p>
 
                 <p>Before learning to code, I earned an M.S. in Geography,
                 worked as a researcher, and as a teacher at both the college and
-                high school levels. I'm a <a target = "_blank" rel="noopener noreferrer"
-                href = "https://scholar.google.com/citations?user=BRdKb-4AAAAJ&hl=en">
-                published author</a>, experienced data analyst and visualizer, and excellent
-                teacher or trainer.</p>
+                high school levels. I'm a published author, experienced data analyst
+                and visualizer, and excellent teacher or trainer.</p>
 
-                <p>I live in Round Rock, Texas with my fiance,
-                <a target= "_blank" rel="noopener noreferrer" href= "https://twitter.com/HarridiseLost"> Ben</a>,
-                our dog, Zelda, and our silkie chickens.
-                When I'm not coding, I enjoy <a target = "_blank" rel="noopener noreferrer"
-                href = "http://steamcommunity.com/id/amallie/">video games</a>,
-                picking veggies in my garden, cooking, and swimming.</p>
+                <p>I live in Round Rock, Texas with my fiance, Ben,
+                our dog, Zelda, our cats, Moxie and Wiley, and our silkie chickens.
+                When I'm not coding, I enjoy video games, scary movies, cooking, and hiking.</p>
               </div>
             </div>
           </div>

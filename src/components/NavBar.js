@@ -29,9 +29,6 @@ class NavBar extends Component {
             <li className = "linkButton" ><NavLink to="/projects"><button id = "navButton">Projects</button></NavLink></li>
             <li className = "socialButton"><a target= "_blank" rel="noopener noreferrer" href = "https://github.com/Rmcavin"><button id = "navButton"><i className="fa fa-github" aria-hidden="true"></i></button></a></li>
             <li className = "socialButton"><a target= "_blank" rel="noopener noreferrer" href = "https://www.linkedin.com/in/rachel-cavin-79036468/"><button  id = "navButton"><i className="fa fa-linkedin" aria-hidden="true"></i></button></a></li>
-            <li className = "socialButton"><a target= "_blank" rel="noopener noreferrer" href = "https://twitter.com/Rachel_Cavin"><button  id = "navButton"><i className="fa fa-twitter" aria-hidden="true"></i></button></a></li>
-            <li className = "socialButton"><a target= "_blank" rel="noopener noreferrer" href = "https://codepen.io/rmcavin/pens/public/"><button  id = "navButton"><i className="fa fa-codepen" aria-hidden="true"></i></button></a></li>
-            <li className = "socialButton"><a target= "_blank" rel="noopener noreferrer" href = "https://www.freecodecamp.com/rmcavin"><button  id = "navButton"><i className="fa fa-free-code-camp" aria-hidden="true"></i></button></a></li>
           </ul>
         </nav>
         <div className = "divider">

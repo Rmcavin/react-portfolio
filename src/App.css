@@ -68,17 +68,17 @@ hr {
 }
 
 .navBar {
-  width: 70%;
+  width: 50%;
   margin: auto;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   justify-content: center;
   align-content: center;
   animation: 2s fadeIn ease;
 }
 
 .linkButton {
-  flex: 1 1 20%;
+  flex: 1 1 15%;
 }
 
 .socialButton {
@@ -91,11 +91,12 @@ button {
   font-size: 16px;
   background-color: rgb(181,241,229);
   border-radius: 5px;
-  border: 1px solid rgb(105,185,170);
+  /*border: 1px solid rgb(105,185,170); */
   height: 45px;
   margin: 5px 10px 5px 10px;
-  box-shadow: 2px 2px 2px rgb(105,185,170);
+/*  box-shadow: 2px 2px 2px rgb(105,185,170); */
   outline: none;
+  border: none;
 }
 
 button:focus{
@@ -225,16 +226,15 @@ a {
 
 .flexy-icons {
   display: flex;
+  flex-flow: row wrap;
   width: 80%;
   margin: auto;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
   margin-top: 0px;
+  text-align: center;
 }
 
-#skills {
-  flex: 1;
+.skills {
+  flex: 1 1 auto;
   padding: 10px;
   }
 
@@ -396,6 +396,10 @@ span {
 .nav .socialButton {
   flex-basis: 5%;
   padding: 0px;
+}
+
+.navBar {
+  flex-wrap: wrap;
 }
 
 .toggleNav {

@@ -11,21 +11,19 @@ class Skills extends Component {
           <div className = "sectionParagraph" id="skillIcons">
             <h4>Current Skills</h4>
             <div className = "flexy-icons">
-              <i className="devicon-javascript-plain" id="skills"></i>
-              <i className="devicon-css3-plain-wordmark" id="skills"></i>
-              <i className="devicon-html5-plain-wordmark" id="skills"></i>
-              <i className="devicon-github-plain-wordmark" id="skills"></i>
-              <i className="devicon-bootstrap-plain-wordmark" id="skills"></i>
-              <i className="devicon-jquery-plain-wordmark" id="skills"></i>
-              <i className="devicon-react-original-wordmark" id="skills"></i>
-              <i className="devicon-git-plain-wordmark" id="skills"></i>
-            </div>
-            <h4>Coming Soon</h4>
-            <div className = "flexy-icons">
-              <i className="devicon-mongodb-plain-wordmark" id="skills"></i>
-              <i className="devicon-nodejs-plain-wordmark" id="skills"></i>
-              <i className="devicon-express-original-wordmark" id="skills"></i>
-              <i className="devicon-sass-original" id="skills"></i>
+              <i className="devicon-javascript-plain skills"></i>
+              <i className="devicon-css3-plain-wordmark skills"></i>
+              <i className="devicon-html5-plain-wordmark skills"></i>
+              <i className="devicon-github-plain-wordmark skills"></i>
+              <i className="devicon-bootstrap-plain-wordmark skills"></i>
+              <i className="devicon-jquery-plain-wordmark skills"></i>
+              <i className="devicon-react-original-wordmark skills"></i>
+              <i className="devicon-git-plain-wordmark skills"></i>
+              <i className="devicon-nodejs-plain-wordmark skills"></i>
+              <i className="devicon-express-original-wordmark skills"></i>
+              <i className="devicon-postgresql-plain-wordmark skills"></i>
+              <i className="devicon-sass-original skills"></i>
+              <i className="devicon-mocha-plain skills" ></i>
             </div>
           </div>
 
